@@ -6,3 +6,4 @@ the program excepts two comand line arguments those being the x and y for the 2d
 Use left click to block squares off, the path finding algo will skip these squares. Same idea to a maze. The squares will be marked black<br>
 right click to set a destiantion square for the pathfinding algo to find. This single square will be marked Cyan<br>
 Middle mouse click will set a starting square. This square will be marked with Green <br>
+Click Start when you want to the path the algorithm takes <br>
