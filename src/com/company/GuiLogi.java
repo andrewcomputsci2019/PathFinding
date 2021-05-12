@@ -100,7 +100,7 @@ public class GuiLogi implements ActionListener {
             @Override
             public void mouseClicked(MouseEvent e) {
                 findPath();
-                startButton.setVisible(false);
+                startButton.setEnabled(false);
                 Timer timer = new Timer(1500, GuiLogi.this);
                 timer.setRepeats(false);
                 timer.start();
@@ -235,6 +235,6 @@ public class GuiLogi implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        startButton.setVisible(true);
+        startButton.setEnabled(true);
     }
 }
