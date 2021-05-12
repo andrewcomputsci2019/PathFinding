@@ -7,4 +7,4 @@ Use left click to block squares off, the path finding algo will skip these squar
 right click to set a destiantion square for the pathfinding algo to find. This single square will be marked Cyan<br>
 Middle mouse click will set a starting square. This square will be marked with Green <br>
 Click Start when you want to the path the algorithm takes <br>
-https://www.youtube.com/watch?v=38PHY6gxfFk 
+[Runtime test](https://www.youtube.com/watch?v=38PHY6gxfFk) 
