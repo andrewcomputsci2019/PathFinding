@@ -219,7 +219,7 @@ public class GuiLogi implements ActionListener {
             for (int j=0;j < array[i].length;j++){
                 if (array[i][j] && !(startingPosition.getValue()==i && startingPosition.getKey()==j)){
                     arrayOfbuttons[i][j].setBackground(Color.RED);
-                }else if (!array[i][j]){
+                }else if (!array[i][j] && !(arrayOfbuttons[i][j].getBackground().equals(Color.CYAN) || arrayOfbuttons[i][j].getBackground().equals(Color.black) || arrayOfbuttons[i][j].getBackground().equals(Color.GREEN))){
                     arrayOfbuttons[i][j].setBackground(Color.WHITE);
                 }
             }
